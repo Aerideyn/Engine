@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{019d9eef-2316-42b0-8c8d-67bf1f498dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AssetLoading">
+      <UniqueIdentifier>{a7160316-6259-4b85-b413-8a36d01b56c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Services">
+      <UniqueIdentifier>{4022db4a-c894-4d41-89d6-1a31a073203b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AssetLoading">
+      <UniqueIdentifier>{66626ad3-9a99-4dff-b7c3-fa27ca94b833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{92f684bc-4d4a-43c6-b95c-85e7da660710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Services">
+      <UniqueIdentifier>{643d8cb1-4bba-4bb8-ae66-02afe4ff5f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BoundingVolumes">
+      <UniqueIdentifier>{8e1619a3-bf52-422d-9deb-af6201f654d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Boundingvolumes">
+      <UniqueIdentifier>{9ee7a08c-18a3-47af-943c-b9a18164fbe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{0ba9463b-2a23-48fa-b3cd-b8613bb3d57e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{ba628724-bdf2-4add-be0d-7be17bcc33f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommonObjects">
+      <UniqueIdentifier>{97458a80-bc0e-408e-b510-a34eedca1f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommonObjects\RenderablePrimitives">
+      <UniqueIdentifier>{181b9d21-c35a-4f86-bb7e-5af267ebd662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonObjects">
+      <UniqueIdentifier>{fd968329-ddb0-4e94-87ea-1fed662d1bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommonObjects\RenderablePrimitives">
+      <UniqueIdentifier>{157def1d-d7bd-4e8a-b024-356c36b93de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{8ecdef9d-7d42-4f36-84fc-4fbfed4f9b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{8818a503-82b9-4dcf-aa57-406767b4f57d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EngineCpp\EngineCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\BoundingSphere.cpp">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Monitor.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Shader.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Texture2D.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Window.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\ShaderLoader.cpp">
+      <Filter>Source Files\AssetLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\TextureLoader.cpp">
+      <Filter>Source Files\AssetLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\lodepng.cpp">
+      <Filter>Source Files\AssetLoading</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\BoundingFrustum.cpp">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Mouse.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Keyboard.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\PhysicsWorld.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\AxisRenderer.cpp">
+      <Filter>Source Files\CommonObjects\RenderablePrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\VectorRenderer.cpp">
+      <Filter>Source Files\CommonObjects\RenderablePrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\CollisionMesh.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\PhysicsDebugDrawer.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\RenderTarget.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Timer.cpp">
+      <Filter>Source Files\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\PhysicsPrimitives.cpp">
+      <Filter>Source Files\CommonObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\FPSController.cpp">
+      <Filter>Source Files\CommonObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Controller.cpp">
+      <Filter>Source Files\CommonObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\Camera.cpp">
+      <Filter>Source Files\CommonObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\SphereRenderer.cpp">
+      <Filter>Source Files\CommonObjects\RenderablePrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\AttributeBuffers.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\BoundingBox.cpp">
+      <Filter>Source Files\BoundingVolumes</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\BaseGui.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\GuiFrame.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\GuiWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineCpp\GuiObject.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineHeaders\EngineCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Shader.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Texture2D.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Window.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\BoundingSphere.h">
+      <Filter>Header Files\Boundingvolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\ShaderLoader.h">
+      <Filter>Header Files\AssetLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\TextureLoader.h">
+      <Filter>Header Files\AssetLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Monitor.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\lodepng.h">
+      <Filter>Header Files\AssetLoading</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\BoundingFrustum.h">
+      <Filter>Header Files\Boundingvolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Keyboard.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Mouse.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\PhysicsWorld.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\AxisRenderer.h">
+      <Filter>Header Files\CommonObjects\RenderablePrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\VectorRenderer.h">
+      <Filter>Header Files\CommonObjects\RenderablePrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\CollisionMesh.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\PhysicsDebugDrawer.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\RenderTarget.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Timer.h">
+      <Filter>Header Files\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\FPSController.h">
+      <Filter>Header Files\CommonObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Controller.h">
+      <Filter>Header Files\CommonObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\Camera.h">
+      <Filter>Header Files\CommonObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\PhysicsPrimitives.h">
+      <Filter>Header Files\CommonObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\SphereRenderer.h">
+      <Filter>Header Files\CommonObjects\RenderablePrimitives</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\AttributeBuffers.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\BoundingBox.h">
+      <Filter>Header Files\Boundingvolumes</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\BaseGui.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\GuiFrame.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\GuiWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineHeaders\GuiObject.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
